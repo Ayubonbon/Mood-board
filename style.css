@@ -1,0 +1,26 @@
+
+
+
+
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: #ff69b4;
+    text-align: center;
+    
+    position: relative;
+    background-color: rgb(31, 2, 7);
+    height: 100px;
+    width: 1000px;
+
+    
+  }
+  
+
+.title::before,
+.title::after {
+  content: '💖'; /* Add the heart emoji */
+  font-size: 2 rem; /* Adjust size */
+
+}
+
